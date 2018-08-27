@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # @Program: To Print Fibonacii series upto N number
 # @Author: Sarani Bhattacharya
-from __future__ import print_function
 from sys import argv
 
 def  fibonacii_series(n):
@@ -14,6 +13,7 @@ def  fibonacii_series(n):
             x=y
             y=z
     return;
+
 #Main 
 if len(argv) !=2:
     exit(1)
