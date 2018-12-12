@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# @Program: To Print Fibonacci series upto N number
+# @Program: To Practice different functionalities of Date function
 # @Author: Sarani Bhattacharya
 
 from datetime import date
