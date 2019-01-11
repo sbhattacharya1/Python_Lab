@@ -12,9 +12,19 @@ print (list1 + tinylist)			    #Concatenate 2 lists
 list1[3]='Jinny'					        #Modify element in 3rd index
 print (list1)
 
-#Built in list Functions
+#Sample Built-in list Functions
 list1.append(4587)					      #Append 4587 at the end
 print (list1)
+num=[3,7,2,9,1]
+sorted_num=sorted(num,reverse=True)   #list "num" will be sorted in descending order and stored in new list "sorted_num"
+num.sort()                        #num will be sorted and replaced
+num.reverse()                     #reverse the order of elelemnts in num
+del num[1]                        #element in 1st index will be deleted
+a=num.pop(1)                      #element in 1st position will be removed and returned in a
+list1.remove('John')              #remove element wise  
+c=num.count(1)                    #count and return the number of occurance of element "1"
+i=num.index(1)                    #return the index of 1st occurance of element "1"
 
 #Python Tuples						        Tuples are read-only
-tuple1=('abcd',789,2.23,'john',70.2)
+t1=('abcd',789,2.23,'john',70.2)
+
